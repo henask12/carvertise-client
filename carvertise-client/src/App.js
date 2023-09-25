@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutUs from "./components/Layout/AboutUs";
 import Footer from "./components/Layout/Footer";
 import Header from "./components/Layout/Header";
 import HeroSection from "./components/Layout/Hero";
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <HeroSection />
       <Testimonials />
+      <AboutUs />
       <Footer />
     </div>
   );
